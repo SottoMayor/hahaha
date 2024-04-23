@@ -1,4 +1,4 @@
-import { createHashRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import Home00WeBSVmenu from './Pages/Home00WeBSVmenu';
@@ -36,7 +36,7 @@ function App() {
     </Route>
   )
 
-  const router = createHashRouter(routesDef, { basename: '/hahaha' });
+  const router = createBrowserRouter(routesDef, { basename: '/hahaha' });
 
   return (
 
