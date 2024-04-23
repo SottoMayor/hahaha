@@ -36,7 +36,7 @@ function App() {
     </Route>
   )
 
-  const router = createBrowserRouter(routesDef, { basename: '/hahaha' }); 
+  const router = createBrowserRouter(routesDef, { basename: '/hahaha' });
 
   return (
 
