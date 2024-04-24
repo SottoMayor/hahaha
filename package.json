@@ -24,6 +24,7 @@
   },
   "scripts": {
     "build-ghpages": "react-app-rewired build && mv build docs",
+    "build-docker": "PUBLIC_URL='/' react-app-rewired build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
@@ -59,5 +60,5 @@
     "node-polyfill-webpack-plugin": "^2.0.1",
     "react-app-rewired": "^2.2.1"
   },
-  "homepage": "https://SottoMayor.github.io/hahaha/"
+  "homepage": "."
 }
